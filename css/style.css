@@ -268,3 +268,11 @@ a {
 .breadcrumb span {
     color: var(--gray-text);
 }
+
+.footer {
+    background: #111827;
+    color: #d1d5db;
+    text-align: center;
+    padding: 24px 0;
+    font-size: 0.9rem;
+}
