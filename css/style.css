@@ -52,6 +52,23 @@ a {
     font-size: 1.2rem;
 }
 
+.hero-text h1 {
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: #111827;
+    margin-bottom: 18px;
+}
+
+.hero-text p {
+    font-size: 1rem;
+    color: var(--gray-text);
+    margin-bottom: 24px;
+}
+
+.hero-text .btn {
+    margin: 0;
+}
+
 .hero-container {
     display: flex;
     flex-direction: row-reverse; 
@@ -205,9 +222,9 @@ a {
 }
 
 .btn {
-    display: block;        
-    margin: 30px auto 0;        
-    width: fit-content;    
+    display: block;
+    margin: 30px auto 0;
+    width: fit-content;
     padding: 14px 28px;
     border-radius: 8px;
     font-weight: 600;
@@ -225,6 +242,10 @@ a {
 .btn-primary:hover {
     background: var(--primary-dark);
     border-color: var(--primary-dark);
+}
+
+.hero-text .btn-primary {
+    margin-right: 24.2rem;
 }
 
 .banner {
@@ -275,4 +296,8 @@ a {
     text-align: center;
     padding: 24px 0;
     font-size: 0.9rem;
+}
+
+.footer p {
+    margin: 4px 0;
 }
